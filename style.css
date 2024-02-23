@@ -543,7 +543,7 @@ span {
 }
 
 .skills-column:nth-child(1) .skills-content .progress:nth-child(2) .bar span {
-  width: 60%;
+  width: 50%;
 }
 
 .skills-column:nth-child(1) .skills-content .progress:nth-child(3) .bar span {
@@ -551,11 +551,11 @@ span {
 }
 
 .skills-column:nth-child(1) .skills-content .progress:nth-child(4) .bar span {
-  width: 40%;
+  width: 50%;
 }
 
 .skills-column:nth-child(1) .skills-content .progress:nth-child(5) .bar span {
-  width: 70%;
+  width: 40%;
 }
 
 .skills-column:nth-child(2) .skills-content .progress:nth-child(1) .bar span {
@@ -564,6 +564,9 @@ span {
 
 .skills-column:nth-child(2) .skills-content .progress:nth-child(2) .bar span {
   width: 70%;
+}
+.skills-column:nth-child(2) .skills-content .progress:nth-child(3) .bar span {
+  width: 50%;
 }
 
 .contact {
@@ -585,17 +588,24 @@ span {
 .info:nth-child(1) p a {
   color: var(--main-color);
 }
+.info:nth-child(5) p a {
+  color: var(--main-color);
+}
 
 .info:nth-child(2) .icon {
   width: 3rem;
 }
 
 .info:nth-child(3) .icon {
-  width: 3rem;
+  width: 3.5rem;
 }
 .info:nth-child(4) .icon {
   width: 3rem;
 }
+.info:nth-child(5) .icon {
+  width: 3rem;
+}
+
 
 .info p a {
   color: var(--text-color);
